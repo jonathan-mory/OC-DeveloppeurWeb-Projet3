@@ -246,9 +246,17 @@ form textarea {
 	font-size: 1.2em;
 	margin-bottom: 20px;
 }
+
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+#footer-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 30px 100px;
 }
 
 @media all and (max-width: 1180px) {
