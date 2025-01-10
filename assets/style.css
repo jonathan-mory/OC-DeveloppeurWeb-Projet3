@@ -103,12 +103,14 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
+	font-size: 18px;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	font-size: 18px;
 }
 
 .nav-pills .nav-link:hover {
@@ -195,6 +197,15 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+
+.service__price span {
+	display: block;
+}
+
+.service__price .price {
+	font-size: 24px;
+	font-weight: 500;
 }
 
 #contact {
